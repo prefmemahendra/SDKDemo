@@ -73,8 +73,7 @@
 		F471A07726FDC7A00042D612 /* PataaSignInKit */ = {
 			isa = PBXGroup;
 			children = (
-				F471A07826FDC7A00042D612 /* PataaSignInKit.h */,
-				F471A09326FDC81F0042D612 /* PTSDKLogger.swift */,
+				F4B81E4D2701EA5700C02F03 /* Classes */,
 				F471A07926FDC7A00042D612 /* Info.plist */,
 			);
 			path = PataaSignInKit;
@@ -87,6 +86,15 @@
 				F471A08526FDC7A00042D612 /* Info.plist */,
 			);
 			path = PataaSignInKitTests;
+			sourceTree = "<group>";
+		};
+		F4B81E4D2701EA5700C02F03 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F471A07826FDC7A00042D612 /* PataaSignInKit.h */,
+				F471A09326FDC81F0042D612 /* PTSDKLogger.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
