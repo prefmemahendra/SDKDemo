@@ -161,9 +161,8 @@ Pod::Spec.new do |s|
   s.platform          = :ios
   # change the source location
   #s.source       = { :path => '.' }
-  #s.source   = { :git => "https://github.com/prefmemahendra/SDKDemo.git" , :tag => "1.1.0"}
-  s.source       = { :git => "https://github.com/prefmemahendra/SDKDemo.git", :branch => "main",
-                   :tag => s.version.to_s }
+  #s.source   = { :git => "https://github.com/prefmemahendra/SDKDemo.git" , :tag => "1.1.1"}
+  s.source       = { :git => "https://github.com/prefmemahendra/SDKDemo.git", :branch => "main", tag => s.version.to_s }
   s.source_files = "**/*.{h,m,swift}"
   s.requires_arc = true
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
