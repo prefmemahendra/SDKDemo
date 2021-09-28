@@ -149,7 +149,7 @@
 
 Pod::Spec.new do |s|
   s.name              = "MyFrameworkFinal" # Name for your pod
-  s.version           = "1.1.0"
+  s.version           = "1.1.1"
   s.summary           = "Sample Spec"
   s.homepage          = "https://github.com/prefmemahendra/SDKDemo"
     s.description  = <<-DESC
