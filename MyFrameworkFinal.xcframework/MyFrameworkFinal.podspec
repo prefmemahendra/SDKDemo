@@ -161,14 +161,15 @@ Pod::Spec.new do |s|
   s.platform          = :ios
   # change the source location
   #s.source       = { :path => '.' }
-  s.source   = { :git => "https://github.com/prefmemahendra/SDKDemo.git" , :tag => "1.1.0"}
+  #s.source   = { :git => "https://github.com/prefmemahendra/SDKDemo.git" , :tag => "1.1.0"}
+  s.source       = { :git => "https://github.com/prefmemahendra/SDKDemo.git", :branch => "main",
+                   :tag => s.version.to_s }
   s.source_files = "**/*.{h,m,swift}"
   s.requires_arc = true
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.ios.deployment_target = "12.4"
-  #s.ios.vendored_frameworks = "MyFrameworkFinal/X.xcframework" # Your XCFramework
-  s.ios.vendored_frameworks = "MyFrameworkFinal.xcframework" # Your XCFramework
+  s.ios.vendored_frameworks = "MyFrameworkFinal/SDKDemo-main.xcframework" # Your XCFramework
 
   s.swift_version = '5.0'
 
