@@ -165,7 +165,7 @@ Pod::Spec.new do |s|
   s.source_files = "**/*.{h,m,swift}"
   #s.requires_arc = true
   s.pod_target_xcconfig = { 'VALID_ARCHS[sdk=iphonesimulator*]' => 'armv7' }
-  s.user_target_xcconfig = { 'VALID_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'VALID_ARCHS[sdk=iphonesimulator*]' => 'armv7' }
   #s.pod_target_xcconfig = { 'VALID_ARCHS' => 'armv7', 'armv7s' }
 
   s.ios.deployment_target = "12.4"
