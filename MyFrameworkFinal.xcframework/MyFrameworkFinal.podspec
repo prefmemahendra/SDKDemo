@@ -149,7 +149,7 @@
 
 Pod::Spec.new do |s|
   s.name              = "MyFrameworkFinal" # Name for your pod
-  s.version           = "1.1.1"
+  s.version           = "1.1.2"
   s.summary           = "Sample Spec"
   s.homepage          = "https://github.com/prefmemahendra/SDKDemo"
     s.description  = <<-DESC
@@ -161,7 +161,7 @@ Pod::Spec.new do |s|
   s.platform          = :ios
   # change the source location
   #s.source       = { :path => '.' }
-  s.source   = { :git => "https://github.com/prefmemahendra/SDKDemo.git" , :tag => "1.1.1"}
+  s.source   = { :git => "https://github.com/prefmemahendra/SDKDemo.git" , :tag => s.version.to_s}
   s.source_files = "**/*.{h,m,swift}"
   s.requires_arc = true
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
