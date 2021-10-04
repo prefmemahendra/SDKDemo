@@ -1,2 +1,3 @@
-# SDKDemo
-upload sdk for testing purpose
+# MRKit
+
+A description of this package.
