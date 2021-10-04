@@ -1,0 +1,11 @@
+framework module MRKit {
+  umbrella header "MRKit.h"
+
+  export *
+  module * { export * }
+}
+
+module MRKit.Swift {
+    header "MRKit-Swift.h"
+    requires objc
+}
