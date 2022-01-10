@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MRKit"
-  s.version      = "1.0.0"
+  s.version      = "4.0.0"
   s.summary      = "MRKit for iOS"
   
   s.description  = <<-DESC
